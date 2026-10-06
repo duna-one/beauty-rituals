@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "checkedAt": "2026-10-06T11:28:45.329Z",
+  "entry": "index.html",
+  "browser": "Google Chrome headless via Playwright",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844
+    },
+    {
+      "name": "small-mobile",
+      "width": 320,
+      "height": 700
+    }
+  ],
+  "productImages": {
+    "expected": 12,
+    "loadedAndVisible": 12,
+    "files": [
+      {
+        "filename": "fruit-fusion.jpg",
+        "bytes": 88646
+      },
+      {
+        "filename": "fruit-mood.jpg",
+        "bytes": 76821
+      },
+      {
+        "filename": "matcha-twist.jpg",
+        "bytes": 66475
+      },
+      {
+        "filename": "sweet-bubble.jpg",
+        "bytes": 85346
+      },
+      {
+        "filename": "mango-mania-shower.jpg",
+        "bytes": 81114
+      },
+      {
+        "filename": "mango-mania-lotion.jpg",
+        "bytes": 83042
+      },
+      {
+        "filename": "gold-set-shampoo.jpg",
+        "bytes": 77648
+      },
+      {
+        "filename": "gold-set-conditioner.jpg",
+        "bytes": 80707
+      },
+      {
+        "filename": "shower-oil.jpg",
+        "bytes": 97339
+      },
+      {
+        "filename": "mist-soft-powder-touch.jpg",
+        "bytes": 63217
+      },
+      {
+        "filename": "mist-sun-kissed-mango.jpg",
+        "bytes": 64725
+      },
+      {
+        "filename": "mist-warm-gourmet-sense.jpg",
+        "bytes": 66080
+      }
+    ]
+  },
+  "checks": [
+    "exact image filenames",
+    "all product images load",
+    "photo-window geometry",
+    "12 cards and details",
+    "details click open and close",
+    "no horizontal overflow including open details",
+    "image request fallback",
+    "no pageerror",
+    "reduced motion",
+    "content visible with JavaScript disabled"
+  ],
+  "screenshots": [
+    "desktop.png",
+    "mobile.png",
+    "mobile-hero.png",
+    "mobile-product.png",
+    "mobile-mists.png"
+  ],
+  "failures": []
+}
